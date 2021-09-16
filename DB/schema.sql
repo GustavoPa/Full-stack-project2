@@ -1,0 +1,3 @@
+DROP DATABASE IF EXISTS hireart_db;
+
+CREATE DATABASE hireart_db;

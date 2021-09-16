@@ -1,0 +1,53 @@
+
+const artistData = [
+    {
+        profile_pic: 'https://hireartgroup2.blob.core.windows.net/art-blob-store/334542_10152129912880181_175584631_o.jpg',
+        username: 'LakynMPhotography',
+        email: 'lakynmphotography@Hotmail.com',
+        password: 'password123',
+        artist_type: 'Photographer',
+        location: 'Ottawa, ONT',
+        website: 'www.lakynmphotography.com',
+        work_samples: ['https://hireartgroup2.blob.core.windows.net/art-blob-store/1001875_676552192359996_1142291011_n.jpg', 'https://hireartgroup2.blob.core.windows.net/art-blob-store/1377516_727583913923490_1020292023_n.jpg', 'https://hireartgroup2.blob.core.windows.net/art-blob-store/1620355_802145546467326_1079490990_n.jpg'],
+        description: 'Lakyn is a photographer based in Ottawa, Ontario. She is a graduate of the University of Ottawa with a degree in Photography. She has been working in the field of photography for over 10 years',
+        opento_commission: 'Yes',
+    },
+    {
+        profile_pic: 'https://hireartgroup2.blob.core.windows.net/art-blob-store/Dems&DollProfile.jpg',
+        username: 'DEMS & DOLLS',
+        email: 'Dems@hotmail.com',
+        password: 'Doll123',
+        artist_type: 'Muraluist',
+        location: 'Ottawa, ONT',
+        website: 'www.Dems&Dolls.com',
+        work_samples: ['https://hireartgroup2.blob.core.windows.net/art-blob-store/Doll.jpg', 'https://hireartgroup2.blob.core.windows.net/art-blob-store/doll2.jpg', 'https://hireartgroup2.blob.core.windows.net/art-blob-store/Doll3.jpg'],
+        description: 'Dems & Dolls is a muralist based in Ottawa, Ontario. She is a graduate of the University of Ottawa with a degree in Art. She has been working in the field of art for over 10 years',
+        opento_commission: 'Yes',
+    },
+    {
+        profile_pic: 'https://hireartgroup2.blob.core.windows.net/art-blob-store/banksy-venice.jpg',
+        username: 'Banksy',
+        email: 'Banksy@hotmail.com',
+        password: 'Banksy123',
+        artist_type: 'Graffiti',
+        location: 'UK',
+        website: 'www.Banksy.com',
+        work_samples: ['https://hireartgroup2.blob.core.windows.net/art-blob-store/66_Banksy_LoveIsInTheAirFlowerThrower_SprayPaint_Original_2006-b949fd7e1aec4dd1661404bd178b1f0a.jpg', 'https://hireartgroup2.blob.core.windows.net/art-blob-store/banksy.png', 'https://hireartgroup2.blob.core.windows.net/art-blob-store/banksy1.png'],
+        description: 'Banky is a graffiti artist based in Ottawa, Ontario. She is a graduate of the University of Ottawa with a degree in Art. She has been working in the field of art for over 10 years',
+        opento_commission: 'NO',
+    },
+    {
+        profile_pic: 'https://hireartgroup2.blob.core.windows.net/art-blob-store/Self-Portrait-artist-panel-board-Vincent-van-Gogh-1887.jpg',
+        username: 'Vincent van Gogh ',
+        email: 'VincentvanGogh@hotmail.com',
+        password: 'VanGogh123',
+        artist_type: 'Painter',
+        location: 'Zundert, Netherlands',
+        website: 'www.VincentvanGogh.com',
+        work_samples: ['https://hireartgroup2.blob.core.windows.net/art-blob-store/Portrait-Joseph-Roulin-oil-canvas-France-Arles-1889.jpg', 'https://hireartgroup2.blob.core.windows.net/art-blob-store/Self-Portrait-artist-panel-board-Vincent-van-Gogh-1887.jpg', 'https://hireartgroup2.blob.core.windows.net/art-blob-store/Starry-Night-canvas-Vincent-van-Gogh-New-1889.jpg'],
+        description: 'Dutch painter, generally considered the greatest after Rembrandt van Rijn, and one of the greatest of the Post-Impressionists. The striking colour, emphatic brushwork, and contoured forms of his work powerfully influenced the current of Expressionism in modern art. Van Gogh’s art became astoundingly popular after his death, especially in the late 20th century, when his work sold for record-breaking sums at auctions around the world and was featured in blockbuster touring exhibitions. In part because of his extensive published letters, van Gogh has also been mythologized in the popular imagination as the quintessential tortured artist.',
+        opento_commission: 'NO',
+    },
+];
+
+module.exports = artistData;
